@@ -1,0 +1,8 @@
+# iml files
+*.iml
+# xml files
+*.xml
+# .idea folder
+.idea/*
+# out folder
+.out/*

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ReceiverController">
+   <children>
+      <HBox>
+         <children>
+            <ComboBox fx:id="staffList" prefWidth="150.0" promptText="Staff" />
+            <Pane prefHeight="0.0" prefWidth="200.0" />
+            <Button fx:id="restockRequestButton" mnemonicParsing="false" onAction="#restockRequestClicked" text="Restock Request" />
+         </children>
+      </HBox>
+      <Label text="Inventory" />
+      <ListView fx:id="inventory" prefHeight="200.0" prefWidth="200.0" />
+      <Pane prefHeight="25.0" prefWidth="560.0" />
+      <Label text="Restock Item" />
+      <TextField fx:id="restockQuantity" alignment="CENTER" promptText="Enter Restock Amount" />
+      <Button fx:id="immediateRestockButton" mnemonicParsing="false" onAction="#restockClicked" text="Restock immediately" />
+   </children>
+   <padding>
+      <Insets left="20.0" right="20.0" />
+   </padding>
+</VBox>

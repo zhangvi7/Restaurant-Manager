@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.Tab?>
+
+<TabPane fx:id="tabPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ProgramStart">
+  <tabs>
+    <Tab fx:id="server_tab" text="Server">
+       <content>
+         <fx:include source="Server.fxml" />
+       </content>
+    </Tab>
+    <Tab fx:id="chef_tab" text="Chef">
+      <content>
+        <fx:include source="Chef.fxml" />
+      </content>
+    </Tab>
+    <Tab fx:id="manager_tab" text="Manager">
+      <content>
+        <fx:include source="Manager.fxml" />
+      </content>
+    </Tab>
+    <Tab fx:id="receiver_tab" text="Receiver">
+      <content>
+        <fx:include source="Receiver.fxml" />
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>

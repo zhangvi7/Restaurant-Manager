@@ -1,0 +1,22 @@
+Potato:10.00,5.00
+Apple:10.00,5.00
+Carrot:30.00,5.00
+Cheese:10.00,5.00
+Beef:10.00,5.00
+Bacon:10.00,5.00
+Burger Bun:10.00,5.00
+Chicken:10.00,5.00
+Flour:10.00,5.00
+Lettuce:10.00,5.00
+Ice Cream:10.00,5.00
+Potato:10.00,5.00
+Taco Shell:10.00,5.00
+Pepper:10,5
+Dough:10,5
+Tomato:10,5
+Sugar:10,5
+Peanut:10,5
+Chocolate:20,10
+Flour:10,5
+Butter:5,1
+Tortilla:10,5

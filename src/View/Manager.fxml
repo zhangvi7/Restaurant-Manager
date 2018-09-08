@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ManagerController">
+   <children>
+      <BorderPane prefHeight="400.0" prefWidth="600.0">
+         <top>
+            <Pane prefHeight="80.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="idField" layoutX="112.0" layoutY="28.0" promptText="userID" />
+                  <Button layoutX="306.0" layoutY="28.0" mnemonicParsing="false" onAction="#checkLogin" text="Log In" />
+                  <Button layoutX="371.0" layoutY="28.0" mnemonicParsing="false" onAction="#logout" text="Log Out" />
+               </children>
+            </Pane>
+         </top>
+         <center>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="checkInventory" layoutX="445.0" layoutY="29.0" mnemonicParsing="false" onAction="#checkInventoryClicked" text="Check Inventory" />
+                  <TextArea fx:id="eventText" layoutY="160.0" prefHeight="163.0" prefWidth="600.0" />
+                  <Button fx:id="deleteOrderButton" layoutX="50.0" layoutY="122.0" mnemonicParsing="false" onAction="#deleteRequestsClicked" text="Delete Order Requests" />
+                  <Button layoutX="50.0" layoutY="29.0" mnemonicParsing="false" onAction="#writeEmailClicked" text="Write E-mail" />
+                  <Button layoutX="447.0" layoutY="72.0" mnemonicParsing="false" onAction="#checkRevenueClicked" text="Check Revenue" />
+                  <TextField fx:id="delRequestField" layoutX="226.0" layoutY="122.0" promptText="exact name of ingredient" />
+                  <Button fx:id="editEmailButton" layoutX="50.0" layoutY="72.0" mnemonicParsing="false" onAction="#editEmailClicked" text="Edited Email" />
+                  <TextField fx:id="ingredient" layoutX="159.0" layoutY="72.0" prefHeight="27.0" prefWidth="102.0" promptText="Ingredient" />
+                  <TextField fx:id="quantity" layoutX="281.0" layoutY="72.0" prefHeight="27.0" prefWidth="74.0" promptText="Quantity" />
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

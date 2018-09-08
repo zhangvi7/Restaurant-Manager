@@ -1,0 +1,21 @@
+Luke Zhang:
+ - Table class
+ - Bill tax, tip, payment time, splitting/combining
+ - Menu categorization
+ - Menu filtering
+
+Victor Zhang
+-Refactored Restaurant
+-Added systems (Revenue,Staff, Order)
+- Receiving methods
+-Implemented config file initialization
+
+Gongen Zhong
+ - Inventory class
+ - manager and revenue gui, assisted in server and server gui methods
+ - Logging events
+ - Observer between inventory and managergui
+
+Shien Yue Chou
+- Mainly the Gui and relevant Controller methods
+-implemented Serializable in Menu, Revenue System and Inventory

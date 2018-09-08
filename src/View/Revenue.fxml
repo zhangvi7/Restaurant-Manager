@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RevenueController">
+  <children>
+    <GridPane prefHeight="400.0" prefWidth="600.0">
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints maxHeight="129.0" minHeight="0.0" prefHeight="13.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="319.0" minHeight="10.0" prefHeight="313.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+      <children>
+        <Label alignment="TOP_LEFT" text="Revenue" GridPane.columnIndex="1" />
+        <VBox prefHeight="200.0" prefWidth="100.0" spacing="50.0" GridPane.rowIndex="1">
+          <children>
+            <Label text="24 Hour Report">
+              <font>
+                <Font size="15.0" />
+              </font>
+            </Label>
+            <Label text="7 Day Report">
+              <font>
+                <Font size="15.0" />
+              </font>
+            </Label>
+            <Label text="30 Day Report">
+              <font>
+                <Font size="15.0" />
+              </font>
+            </Label>
+            <Label text="Year (365 days) Report">
+              <font>
+                <Font size="15.0" />
+              </font>
+            </Label>
+            <Label text="To Date Report">
+              <font>
+                <Font size="15.0" />
+              </font>
+            </Label>
+          </children>
+        </VBox>
+        <VBox prefHeight="200.0" prefWidth="100.0" spacing="50.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+          <children>
+            <Label fx:id="dayRevenueLabel">
+              <font>
+                <Font size="18.0" />
+              </font>
+            </Label>
+            <Label fx:id="weekRevenueLabel">
+              <font>
+                <Font size="18.0" />
+              </font>
+            </Label>
+            <Label fx:id="monthRevenueLabel">
+              <font>
+                <Font size="18.0" />
+              </font>
+            </Label>
+            <Label fx:id="yearRevenueLabel">
+              <font>
+                <Font size="18.0" />
+              </font>
+            </Label>
+            <Label fx:id="allRevenueLabel">
+              <font>
+                <Font size="18.0" />
+              </font>
+            </Label>
+          </children>
+        </VBox>
+        <VBox prefHeight="200.0" prefWidth="100.0" spacing="50.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+          <children>
+            <Label fx:id="dayTaxesLabel" />
+            <Label fx:id="weekTaxesLabel" />
+            <Label fx:id="monthTaxesLabel" />
+            <Label fx:id="yearTaxesLabel" />
+            <Label fx:id="allTaxesLabel" />
+          </children>
+        </VBox>
+        <Label text="Taxes payable" GridPane.columnIndex="2" />
+        <Label text="Time frame" />
+      </children>
+    </GridPane>
+  </children>
+</AnchorPane>
